@@ -13,14 +13,3 @@ export const PlaylistCard = (playlist) => `
     </div>
 </div>
 `;
-
-
-// Array.from(playlists).forEach(playlist => {
-//     playlist.addEventListener('click', event => {
-//         const playlist_selected = +event.target.dataset.playlists
-//         img_slideshow.src = images_mad[playlist_selected].img
-//         contador_mad = playlist_selected
-//         overlay.style.opacity = 1
-//         overlay.style.visibility = 'visible'
-//     })
-//   })
