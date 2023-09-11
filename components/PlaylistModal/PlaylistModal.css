@@ -63,7 +63,7 @@ iframe{
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
     .modal{
         width: 100%;
     }
@@ -84,7 +84,7 @@ iframe{
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
     .modal-name>h2{
         font-size: .9vh;
     }
