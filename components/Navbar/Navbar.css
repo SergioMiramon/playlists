@@ -1,0 +1,52 @@
+nav {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vh;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 770px) {
+    nav {
+        padding: 0 2rem;
+    }
+}
+
+nav>ul {
+    position: fixed;
+    right: 0;
+    display: flex;
+    height: 100%;
+    padding: 2vh;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav a {
+    border-bottom: 1px solid transparent;
+    font-size: 2vh;
+    margin-inline-end: 10px;
+}
+
+nav #homelink{
+    position: fixed;
+}
+
+.logo{
+    width: 2.5vh;
+    max-width: 750px;
+    margin-top: 5px;
+    height: 2.5vh;
+    background: transparent;
+    margin-left: .75vh;
+}
+
+nav #playlistslink:hover {
+    filter: brightness(70);
+    -webkit-filter: brightness(70);
+}
+nav a img {
+    margin-top: 1.25vh;
+}

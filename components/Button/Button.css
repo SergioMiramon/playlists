@@ -1,0 +1,27 @@
+.icons {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.icons a{
+    display: flex;
+    justify-content: center;
+}
+.icons>img {
+    height: 2.5vh;
+    width: 2.5vh;
+    margin: 0;
+}
+
+.icons #github img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
