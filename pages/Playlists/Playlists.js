@@ -3,6 +3,7 @@ import { cleanPage } from "../../utils/cleanPage";
 import { foldersDeluxe, foldersExtra, foldersForeign, foldersOrigin, foldersTier1, foldersTops, foldersTv, playlistCount, playlists } from "../../data/playlists";
 import { uniqueFolders } from "../../data/playlists";
 import { PlaylistCard } from "../../components/PlaylistCard/PlaylistCard";
+import { PlaylistIframe } from "../../components/Iframe/Iframe";
 import { PlaylistModal } from "../../components/PlaylistModal/PlaylistModal";
 export const Playlists = () => {
   const main = document.querySelector("main");
@@ -13,6 +14,7 @@ export const Playlists = () => {
     <ul class="folder-list">
     <h3>Folders</h3>
     <input class="input" type='text' placeholder='Search for a playlist'>
+      
     </ul>
   </section>
   <section class="playlists">
@@ -133,9 +135,9 @@ export const Playlists = () => {
     })
   }
 
+}
 
-
-  document.addEventListener("keyup", e => {
+document.addEventListener("keyup", e => {
 
     if (e.target.matches(".input")) {
   
@@ -153,7 +155,6 @@ export const Playlists = () => {
         }
       })
 
-
       const playlistTotal = document.querySelector(".tot")
       playlistTotal.innerHTML = `(${count})`
       console.log(playlistTotal)
@@ -164,5 +165,4 @@ export const Playlists = () => {
       console.log(count);
     }
   })
-}
 

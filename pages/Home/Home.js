@@ -4,22 +4,23 @@ export const Home = () => {
   const main = document.querySelector("main");
   cleanPage(main);
   main.innerHTML = `
-<section class="buttons">
-<button>
+<nav class="buttons">
 <a href="/playlists" id="playlistslink">
+<button>
     <div class="cards">
         <img src="./icons/images/all/logo.png" alt="logo">
         <h1>Mis Playlists</h1>
     </div>
-</a>      
 </button>
+</a>
+<!--<a href="/calendar" id="playlistslink">
 <button>
-<a href="/calendar" id="playlistslink">
     <div class="cards">
         <img src="./icons/images/all/logo.png" alt="logo">
         <h1>Calendario</h1>
-    </div>
-</a>      
+    </div>      
 </button>
-</section>`;
+</a>-->
+</nav>`;
 };
+
