@@ -4,7 +4,6 @@
     height: calc(100vh -8vh);
     display: flex;
     flex-direction: row;
-    /* overflow: hidden; */
 }
 
 .sidebar {
@@ -12,6 +11,7 @@
     left: 0;
     padding: 0 8rem;
     width: 25vw;
+    max-height: 40%;
     display: flex;
     flex-direction: column;
 }
@@ -166,7 +166,7 @@ figure {
 
 @media (max-width: 1660px) {
     /* .sidebar {
-        height: inherit;
+        max-height: 30vh;
     } */
     .folder-list input{
         font-size: 1.5vh;
