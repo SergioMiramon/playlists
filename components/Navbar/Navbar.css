@@ -43,10 +43,10 @@ nav #homelink{
     margin-left: .75vh;
 }
 
-nav #playlistslink:hover {
+/* nav #playlistslink:hover {
     filter: brightness(70);
     -webkit-filter: brightness(70);
-}
+} */
 
 nav a img {
     margin-top: 1.25vh;

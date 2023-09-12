@@ -5,9 +5,9 @@ export const Navbar = () => `
     <img class="logo" src="/icons/images/all/logo.png" alt="logo">
 </a>
 <!--<ul>
-<li>
-<a href="/playlists" id="playlistslink">Playlists</a>
-</li>
+    <li>
+        <a href="/playlists" id="playlistslink">Playlists</a>
+    </li>
 </ul>-->
 </nav>
 `;

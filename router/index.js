@@ -29,19 +29,19 @@ window.addEventListener("popstate", router);
 
 document.addEventListener("DOMContentLoaded", router);
 
-// export const addListeners = () => {
-// 	const navLinks = document.querySelectorAll("nav a");
-// 	navLinks.forEach((link) => {
+export const addListeners = () => {
+	const navLinks = document.querySelectorAll("a");
+	navLinks.forEach((link) => {
 
-// 		link.addEventListener("click", (ev) => {
+		link.addEventListener("click", (ev) => {
 	
-// 			ev.preventDefault();
+			ev.preventDefault();
 	
-// 			const href = link.getAttribute("href");
+			const href = link.getAttribute("href");
 	
-// 			history.pushState(null, null, href);
+			history.pushState(null, null, href);
 	
-// 			router();
-// 		});
-// 	});
-// };
+			router();
+		});
+	});
+};

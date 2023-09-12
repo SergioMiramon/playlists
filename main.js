@@ -3,7 +3,7 @@ import { linkPage } from './utils/linkPage';
 import { Navbar } from './components/Navbar/Navbar';
 import { Home } from './pages/Home/Home'
 import { Playlists } from './pages/Playlists/Playlists'
-import { router} from "./router";
+import { router, addListeners } from "./router";
 const header = document.querySelector("header");
 header.innerHTML = Navbar();
 linkPage("#homelink", Home);
@@ -12,4 +12,4 @@ Home();
 Playlists();
 
 router();
-// addListeners();
+addListeners();
