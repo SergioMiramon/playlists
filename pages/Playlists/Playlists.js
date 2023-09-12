@@ -42,10 +42,7 @@ export const Playlists = () => {
       cleanPage(playlistTotal)
       playlistModal.appendChild(modal)
     })
-
     container.appendChild(figure);
-
-    
   }
 
   const folderList = document.querySelector(".folder-list");
