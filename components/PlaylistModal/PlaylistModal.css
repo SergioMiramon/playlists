@@ -84,7 +84,7 @@ iframe{
     }
 }
 
-@media (max-width: 520px) {
+/* @media (max-width: 520px) {
     .modal-name>h2{
         font-size: .9vh;
     }
@@ -100,4 +100,4 @@ iframe{
     .modal-name .arrow{
         font-size: .3vh;
     }
-}
+} */
