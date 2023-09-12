@@ -77,10 +77,10 @@ iframe{
 
 @media (max-width: 770px) {
     .modal-name>h2{
-        font-size: 1vh;
+        font-size: 1.2vh;
     }
     .modal-name .arrow{
-        font-size: .5vh;
+        font-size: .6vh;
     }
 }
 
