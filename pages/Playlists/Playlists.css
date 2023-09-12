@@ -4,7 +4,7 @@
     height: calc(100vh -8vh);
     display: flex;
     flex-direction: row;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .sidebar {
@@ -19,7 +19,6 @@
 .folder-list::-webkit-scrollbar {
     width: 5px;
     background: transparent;
-    /* display: none; */
   }
 .folder-list::-webkit-scrollbar-thumb {
     background: var(--main-bg-color);
@@ -32,7 +31,6 @@
     width: inherit;
     min-width: 10vw;
     height: inherit;
-    /* max-height: 20vw; */
     overflow-y: auto;
     padding: .5vw;
     cursor: pointer;
@@ -112,10 +110,6 @@
     display: block;
 }
 
-/* .folder-list ul.hidden {
-    display: none;
-} */
-
 .folder-list ul li:hover{
     border-radius: .2vw;
     width: auto;
@@ -146,12 +140,6 @@
     padding-bottom: 1vh;
 }
 
-/* @media (max-width: 1080px) {
-    .playlists {
-        padding-bottom: .5rem;
-    }
-} */
-
 .playlists-modal{
     position: fixed;
     width: 60vw;
@@ -170,7 +158,6 @@ figure {
 
 .playlists-total h4{
     position: fixed;
-    /* right: 0; */
     padding-left: .3rem;
     font-size: 1.4vh;
 }
