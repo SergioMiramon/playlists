@@ -114,22 +114,11 @@ export const Playlists = () => {
         ul.appendChild(li);
       }
     }
-    const ulFolders = document.querySelectorAll(".folder-list ul")
     
-    console.log(ulFolders);
-    // ulFolders.forEach((ul) => {
       ul.addEventListener("click", () => {
         const li = ul.querySelectorAll(".folder-list ul li");
         li.forEach(
           li => li.classList.toggle('dropable'));
-      // })
-
-    //   function dropableTier() {
-    //     if (document.querySelector(".tier1").classList.add("dropable")) {
-    //       document.querySelector(".origin").classList.add("hide")
-    //     }
-    //   }
-    // dropableTier();
 
     })
   }
