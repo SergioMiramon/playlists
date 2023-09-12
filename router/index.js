@@ -27,7 +27,7 @@ export const router = () => {
 
 window.addEventListener("popstate", router);
 
-// document.addEventListener("DOMContentLoaded", router);
+document.addEventListener("DOMContentLoaded", router);
 
 // export const addListeners = () => {
 // 	const navLinks = document.querySelectorAll("nav a");
