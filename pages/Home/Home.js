@@ -5,15 +5,14 @@ export const Home = () => {
   cleanPage(main);
   main.innerHTML = `
 <nav class="buttons">
+<a href="/playlists" id="playlistslink">
 <button>
-    <a href="/playlists" id="playlistslink">
     <div class="cards">
         <img src="./icons/images/all/logo.png" alt="logo">
         <h1>Mis Playlists</h1>
     </div>
-    </a>
 </button>
-
+</a>
 <!--<a href="/calendar" id="playlistslink">
 <button>
     <div class="cards">
