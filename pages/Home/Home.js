@@ -5,7 +5,7 @@ export const Home = () => {
   cleanPage(main);
   main.innerHTML = `
 <nav class="buttons">
-<a href="/playlists" id="playlistslink">
+<a href="/playlists">
 <button>
     <div class="cards">
         <img src="./icons/images/all/logo.png" alt="logo">

@@ -30,7 +30,7 @@ window.addEventListener("popstate", router);
 document.addEventListener("DOMContentLoaded", router);
 
 export const addListeners = () => {
-	const navLinks = document.querySelectorAll("a");
+	const navLinks = document.querySelectorAll("nav a");
 	navLinks.forEach((link) => {
 
 		link.addEventListener("click", (ev) => {
