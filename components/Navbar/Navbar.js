@@ -1,7 +1,7 @@
 import "./Navbar.css";
 export const Navbar = () => `
 <nav>
-<a href="#">
+<a href="#" id="homelink">
     <img class="logo" src="/icons/images/all/logo.png" alt="logo">
 </a>
 <ul>

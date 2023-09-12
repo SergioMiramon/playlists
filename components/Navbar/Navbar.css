@@ -13,6 +13,10 @@ nav {
     }
 }
 
+nav #homelink{
+    position: fixed;
+}
+
 nav>ul {
     position: fixed;
     right: 0;
@@ -30,9 +34,7 @@ nav a {
     margin-inline-end: 10px;
 }
 
-nav #homelink{
-    position: fixed;
-}
+
 
 .logo{
     width: 2.5vh;
@@ -50,4 +52,14 @@ nav #homelink{
 
 nav a img {
     margin-top: 1.25vh;
+}
+
+@media (max-width: 1050px) {
+    nav #homelink{
+        position: relative;
+    }
+    
+    nav>ul {
+        position: relative;
+    }
 }
