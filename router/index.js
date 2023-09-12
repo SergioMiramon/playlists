@@ -25,7 +25,7 @@ export const router = () => {
 };
 
 
-// window.addEventListener("popstate", router);
+window.addEventListener("popstate", router);
 
 // document.addEventListener("DOMContentLoaded", router);
 
