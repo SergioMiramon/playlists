@@ -11,7 +11,7 @@
     left: 0;
     padding: 0 8rem;
     width: 25vw;
-    max-height: 40%;
+    max-height: 30vh;
     display: flex;
     flex-direction: column;
 }
@@ -165,11 +165,12 @@ figure {
 
 
 @media (max-width: 1660px) {
-    /* .sidebar {
-        max-height: 30vh;
-    } */
+    .folder-list{
+        padding: 1vh;
+    }
     .folder-list input{
         font-size: 1.5vh;
+        margin: .5vh 0;
     }
     .playlists-container {
         grid-template-columns: repeat(auto-fill, minmax(14vw, 1fr));
@@ -201,7 +202,7 @@ figure {
     .sidebar {
         position: relative;
         width: 100%;
-        /* height: inherit; */
+        max-height: 30vh;
         padding-bottom: 1rem;
     }
     .playlists {
