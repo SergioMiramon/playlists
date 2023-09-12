@@ -30,15 +30,10 @@
 }
 
 .modal-name>h2{
-    font-size: 1.6vh;
+    font-size: 1.8vh;
 }
-.modal-name .arrow{
-    font-size: 1vh;
-}
-
-.modal-header>.modal-name>h2{
-    font-size: 3vh;
-    line-break: auto;
+.modal-name .arrow>i{
+    font-size: 1.8vh;
 }
 
 .modal-info{
@@ -54,35 +49,45 @@ iframe{
     padding-bottom: 1rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1660px) {
+    .modal-name>h2{
+        font-size: 1.6vh;
+    }
+    .modal-name .arrow>i{
+        font-size: 1.6vh;
+    }
+}
+
+
+/* @media (max-width: 1200px) {
     .modal-name>h2{
         font-size: 1.4vh;
     }
-    .modal-name .arrow{
+    .modal-name .arrow>i{
         font-size: .8vh;
     }
-}
+} */
 
 @media (max-width: 1050px) {
     .modal{
         width: 100%;
     }
     .modal-name>h2{
-        font-size: 1.3vh;
+        font-size: 1.5vh;
     }
-    .modal-name .arrow{
-        font-size: .7vh;
+    .modal-name .arrow>i{
+        font-size: 1.5vh;
     }
 }
 
-@media (max-width: 770px) {
+/* @media (max-width: 770px) {
     .modal-name>h2{
         font-size: 1.2vh;
     }
-    .modal-name .arrow{
+    .modal-name .arrow>i{
         font-size: .6vh;
     }
-}
+} */
 
 /* @media (max-width: 520px) {
     .modal-name>h2{

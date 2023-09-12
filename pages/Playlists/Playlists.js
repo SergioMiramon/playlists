@@ -13,7 +13,6 @@ export const Playlists = () => {
     <ul class="folder-list">
     <h3>Folders</h3>
     <input class="input" type='text' placeholder='Search for a playlist'>
-      
     </ul>
   </section>
   <section class="playlists">
@@ -25,8 +24,6 @@ export const Playlists = () => {
   <h4 class="tot">(${playlistCount})</h4>
   </div>
   </section>
-  <!--<section class="iframe">
-  </section>-->
 </section>
 `;
   const container = document.querySelector(".playlists-container");
