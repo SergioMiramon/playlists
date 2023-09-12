@@ -209,7 +209,6 @@ figure {
         height: inherit;
         display: flex;
         flex-direction: column;
-        overflow: scroll;
     }
     .sidebar {
         position: relative;
