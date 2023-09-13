@@ -110,6 +110,7 @@ export const Playlists = () => {
     }
     
       ul.addEventListener("click", () => {
+        ul.classList.toggle('dropdown');
         const li = ul.querySelectorAll(".folder-list ul li");
         li.forEach(
           li => li.classList.toggle('dropable'));
