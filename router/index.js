@@ -3,10 +3,6 @@ import { Playlists } from "../pages/Playlists/Playlists";
 import NotFound from "../pages/NotFound/NotFound";
 
 const routes = [
-	// {
-	// 	path: "/",
-	// 	component: Playlists,
-	// },
 	{
 		path: "/playlists",
 		component: Playlists,
