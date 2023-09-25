@@ -140,12 +140,6 @@ document.addEventListener("keyup", e => {
 
       const playlistTotal = document.querySelector(".tot")
       playlistTotal.innerHTML = `(${count})`
-      console.log(playlistTotal)
-      
-      const tot = document.querySelector(".playlist-total");
-      tot.appendChild(playlistTotal)
-      console.log(tot)
-      console.log(count);
     }
   })
 

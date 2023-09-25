@@ -31,9 +31,6 @@
 .modal-name>h2{
     font-size: 1.8vh;
 }
-.modal-name .arrow>i{
-    font-size: 1.8vh;
-}
 
 .modal-info{
     width: 100%;
@@ -52,9 +49,6 @@ iframe{
     .modal-name>h2{
         font-size: 1.6vh;
     }
-    .modal-name .arrow>i{
-        font-size: 1.6vh;
-    }
 }
 
 @media (max-width: 1050px) {
@@ -62,9 +56,6 @@ iframe{
         width: 100%;
     }
     .modal-name>h2{
-        font-size: 1.5vh;
-    }
-    .modal-name .arrow>i{
         font-size: 1.5vh;
     }
 }
